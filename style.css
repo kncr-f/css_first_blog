@@ -19,9 +19,9 @@ h2{
 }
 
 
-#container{
+.container{
 	width: 1000px;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 #blog-post-container{
 	width: 75%;	
@@ -40,6 +40,10 @@ h2{
 }
 .p20{
     padding: 20px;
+}
+
+.mt20{
+    margin-top: 20px;
 }
 
 .box{
@@ -141,7 +145,7 @@ h2{
     
 }
 
-ul li{
+tag ul li{
     margin-bottom: 10px;
 }
 .header{
@@ -180,6 +184,43 @@ ul li{
     background-color: #363636;
     border-color: #363636;
 }
+/*navs*/
+#nav{
+    background-color: #333;
+}
+#nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#nav li{ float: left;}
+
+#nav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+}
+
+#nav li a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: #DD4453;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
